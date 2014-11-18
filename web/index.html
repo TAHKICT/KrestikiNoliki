@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hello</title>
+<meta charset="utf-8"/>
+<style>
+	html{
+		background-color:grey;
+	}
+	p{
+		font-size:25px;
+		font-family:Verdana;
+		padding-left:25px;
+	}
+	.form1{
+		position: relative; /* Абсолютное позиционирование */
+    	bottom: -170px; /* Положение от нижнего края */
+    	left: 400px; /* Положение от правого края */
+		width:300px;
+	}
+	.form2{
+		position: relative; /* Абсолютное позиционирование */
+    	bottom: -33px; /* Положение от нижнего края */
+    	left: 800px; /* Положение от правого края */
+		width:300px;
+	}
+	#header {text-align: center;}
+	.desc1{position: absolute; /* Абсолютное позиционирование */
+    	bottom: 400px;
+    	left: 250px;
+    	width:300px; }
+	.desc2{position: absolute; /* Абсолютное позиционирование */
+    	bottom: 380px;
+    	left: 900px;
+    	width:300px;}
+	input{
+		height:20px;
+	}
+	button{
+		height:25px;
+	}
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <p><a href="re"></a></p>
+	
+		<p id="header">Big game "krestiki-noliki"</p>
+		<div class="desc1"><p >if you want to create game - type your name and click "create" button</p></div>
+		
+		<div class="desc2"><p >if you want to join game - type your name, url adress of the game and click "join" button</p></div>
+		
+	
+		<div class="form1">
+			
+			<form action="redirectJSP" method="post">
+	            <p>UserName: <input type="text" name="user"></p>  
+
+				<input type="submit" name="create" value="create">
+			</form>
+			</div>
+			<div class="form2">
+				<form action="redirectJSP" method="post">
+	            <p>UserName: <input type="text" name="user"></p>
+	            
+	            <p>InsertURL: <input type="text" name="url"></p>
+	            <input type="submit" value="join">
+			</form>
+			</div>
+			
+		
+			
+		
+		
+</div>
+</body>
+</html>

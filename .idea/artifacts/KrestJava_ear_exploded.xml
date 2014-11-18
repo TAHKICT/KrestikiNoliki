@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="KrestJava:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/KrestJava_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="KrestJava/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="KrestJava:war exploded" />
+      </element>
+      <element id="directory" name="lib" />
+    </root>
+  </artifact>
+</component>
