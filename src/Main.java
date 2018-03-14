@@ -8,7 +8,7 @@ import org.hibernate.metadata.ClassMetadata;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
+ * Created with IntelliJ IDEA.dddd
  * User: админ
  * Date: 16.11.14
  * Time: 14:45
